@@ -1,0 +1,85 @@
+    1  ls
+    2  cd ~/Documents/repoGit/C++/Online2021/
+    3  ls
+    4  ls
+    5  mkdir git-majonez
+    6  ls git-majonez
+    7  cd git-majonez/
+    8  ls
+    9  echo "#include <iostream> int main() { put("Goodbye World"); }"
+   10  echo "#include <iostream> int main() { put("Goodbye World"); }" > main.cpp
+   11  cat main.cpp 
+   12  echo "#include <iostream> int main() { put(\"Goodbye World\"); }" > main.cpp
+   13  cat main.cpp 
+   14  git init
+   15  git status
+   16  git branch 
+   17  git add *
+   18  git status
+   19  git commit -am"Initial commit"
+   20  git log -3
+   21  echo "#include <iostream> int main() { put(\"Hello World\"); }" > main.cpp
+   22  git diff
+   23  git commit -am"Farewell changed"
+   24  git log -3
+   25  git log
+   26  gitk
+   27  git remote add origin https://github.com/nauka-programowania-MA/git-majonez.git
+   28  git remote -v
+   29  git push -u origin master
+   30  git log -4
+   31  git checkout -b cs
+   32  git branch
+   33  git branch -a
+   34  gitk
+   35  gitk
+   36  git log -4
+   37  git reset HEAD~1 --hard
+   38  git status
+   39  git log -3
+   40  git checkout 7bb3025
+   41  git log -3
+   42  git checkout b981f69a663a10a7ed918a4229bca8ee64d06c9b
+   43  git log -3
+   44  git reset b981f69a663a10a7ed918a4229bca8ee64d06c9b
+   45  git status
+   46  git log -3
+   47  git branch 
+   48  git checkout cs 
+   49  git status
+   50  git log -3
+   51  gitk
+   52  echo "#include <iostream> int main() { put(\"Goodbye Coders School\"); }" > main.cpp
+   53  git status
+   54  git log =3
+   55  git log -3
+   56  git commit -am"Greetings"
+   57  git status
+   58  git status
+   59  git log -3
+   60  git push origin cs
+   61  git checkout master 
+   62  git status
+   63  git log -
+   64  git log -3
+   65  git merge origin/cs
+   66  git mergetool -t meld
+   67  git status
+   68  gitk
+   69  gitk
+   70  git commit -am"merge branch cs"
+   71  git status
+   72  git clean -f
+   73  git status
+   74  gitk
+   75  git log -3
+   76  git commit --amend 
+   77  git status
+   78  git log -3
+   79  git push origin master 
+   80  git log -4
+   81  gitk
+   82  cat history > history.txt
+   83  history 
+   84  cat history > history.txt
+   85  history > history.txt
