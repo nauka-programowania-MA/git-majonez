@@ -1,1 +1,1 @@
-#include <iostream> int main() { put("Hello World"); }
+#include <iostream> int main() { put("Hello Coders School"); }
